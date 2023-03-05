@@ -1,0 +1,54 @@
+@media(max-width: 1200px) {
+    body {
+        background-color: rgb(122, 14, 14)
+    }
+
+    .fundo-video {
+        display: none;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+        height: auto;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .container .personagens {
+        max-width: 40%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .imagem-titulo {
+        width: 300px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cabecalho .menu li {
+        text-align: center;
+        display: flex;
+    }
+    
+    .container .descricao {
+        font-size: 14px;
+    }
+    
+}
